@@ -27,6 +27,5 @@ while  True:
         print("La cantidad en kilogramos es de: ", resultado)
     elif opcion == 3:
         break
-
     else:
         print("Elija una opcion correcta!!!")
