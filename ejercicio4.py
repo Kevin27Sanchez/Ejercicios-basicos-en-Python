@@ -1,3 +1,4 @@
+#suma de los 10 primeros numero impares
 suma_impares = 0
 contador_impares = 0
 
