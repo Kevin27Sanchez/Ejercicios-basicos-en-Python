@@ -1,3 +1,4 @@
+#Ingresar un numero(1-10) y muestre su equivalente en numero romano
 def natural_a_romano(numero):
     if numero == 1:
         resultado = "I"
