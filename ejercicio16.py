@@ -1,5 +1,5 @@
-import random
+#ingresar cantidad de km recorridos y cantidad de litros de combustible. Mostrar la cantidad de conbustible por km recorrido
+distancia = int(input("Ingresar la cantidad de km recorridos: "))
+combustible = int(input("Ingresar los litros de combustible consumido: "))
 
-letra_aleatoria = chr(random.randint(65, 90))  # Genera un número entero aleatorio entre 65 y 90 y lo convierte en una letra
-
-print("Letra aleatoria generada:", letra_aleatoria)
+print("La cantidad de combustible consumida por km es: ",combustible/distancia)
