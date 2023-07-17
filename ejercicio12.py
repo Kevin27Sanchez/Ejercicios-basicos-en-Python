@@ -14,3 +14,4 @@ print("Edades mayores de edad:", mayores_de_edad)
 
 menores_de_edad = [edad for edad in edades if edad < 18]
 print("Edades mayores de edad:", menores_de_edad)
+ 

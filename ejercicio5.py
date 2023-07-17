@@ -1,36 +1,11 @@
-#Ingresar un numero(1-10) y muestre su equivalente en numero romano
-def natural_a_romano(numero):
-    if numero == 1:
-        resultado = "I"
-        return resultado
-    elif numero == 2:
-        resultado = "II"
-        return resultado
-    elif numero == 3:
-        resultado = "III"
-        return resultado
-    elif numero == 4:
-        resultado = "IV"
-        return resultado
-    elif numero == 5:
-        resultado = "V"
-        return resultado
-    elif numero == 6:
-        resultado = "VI"
-        return resultado
-    elif numero == 7:
-        resultado = "VII"
-        return resultado
-    elif numero == 8:
-        resultado = "VIII"
-        return resultado
-    elif numero == 9:
-        resultado = "IX"
-        return resultado
-    elif numero == 10:
-        resultado = "X"
-        return resultado
-    
-numero = int(input("Ingrese un numero: "))
-resultado = natural_a_romano(numero)
-print("Su equivalente en número romano es: ",resultado)
+#suma de los 10 primeros numero impares
+suma_impares = 0
+contador_impares = 0
+
+for num in range(1, 20, 2):
+    suma_impares += num
+    contador_impares += 1
+    if contador_impares == 10:
+        break
+
+print("La suma de los 10 primeros números impares es:", suma_impares)

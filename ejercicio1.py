@@ -1,4 +1,4 @@
-#1. Convertir de modeda sol a dolar y viceversa hola
+#1. Convertir de modeda sol a dolar y viceversa 
 
 def convertir_soles_a_dolares(monto):
     tasa_cambio = 0.28  
